@@ -10,7 +10,7 @@ public class TexTest {
     public void aa() throws Exception {
         Tex s=new Tex();
         int c=s.aa(5);
-        Assert.assertArrayEquals(1,c);
+        Assert.assertEquals(1,c);
     }
 
 }
